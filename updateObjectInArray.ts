@@ -1,4 +1,4 @@
-async function updateObjectInArray<ObjectShape>(
+export default async function updateObjectInArray<ObjectShape>(
     initialArray: ObjectShape[],
     key: keyof ObjectShape,
     value: ObjectShape[keyof ObjectShape],

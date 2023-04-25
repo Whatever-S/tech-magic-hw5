@@ -1,4 +1,18 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .disable{
     pointer-events: none;
     opacity: 0.6;
+}
+
+.green{
+    color: green;
+}
+
+.button{
+    height: 25px;
+    width: 150px;
+    margin: 10px;
 }
